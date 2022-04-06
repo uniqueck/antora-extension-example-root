@@ -1,0 +1,10 @@
+{
+  "name": "antora-extension-example",
+  "dependencies": {
+    "@antora/cli": "^3.0.0",
+    "@antora/site-generator": "^3.0.0"
+  },
+  "scripts": {
+    "antora": "$(npm bin)/antora antora-playbook.yml"
+  }
+}

@@ -1,0 +1,5 @@
+name: component-a
+version: master
+title: Component A
+nav:
+  - modules/ROOT/nav.adoc

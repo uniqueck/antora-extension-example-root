@@ -1,0 +1,15 @@
+site:
+  title: Antora Extension Example
+  start_page: component-a::index.adoc
+content:
+  sources:
+    - url: .
+      branches: HEAD
+      start_path: docs/
+    - url: https://github.com/uniqueck/antora-extension-example-side-repository.git
+      start_path: docs/
+      branches: master
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
